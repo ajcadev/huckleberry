@@ -10,3 +10,77 @@ body {
 }
 
 /* Add styles here! */
+
+
+:root {
+  --primary: hsl(160deg, 100%, 30%);
+  --white: hsl(0deg, 0%, 100%);
+  --gray-medium: hsl(0deg, 0%, 40%);
+  --gray-light: hsl(0deg, 0%, 60%);
+  --yellow-lighter: hsl(45deg, 100%, 50%);
+  --yellow-darker: hsl(45deg, 100%, 40%);
+}
+
+header {
+  border-bottom: 8px solid var(--gray-medium);
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto; /* centralizar o conteúdo do container */
+  padding: 0 24px; /* alinhar o conteúdo do container*/
+}
+
+.intro-chunk {
+  max-width: 400px;
+  padding: 96px 0 48px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 64px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.intro-chunk strong {
+  color: var(--primary);
+}
+
+h2 {
+  margin: 0;
+}
+
+main {
+  background-color: var(--gray-light);
+  padding: 72px 0;
+}
+
+.card {
+  background-color: var(--white);
+  border-bottom: 8px solid var(--gray-medium);
+  margin-left: -24px;
+  padding: 24px;
+}
+
+.card .indented-heading {
+  font-size: 1.5rem;
+  background-color: var(--yellow-lighter);
+  padding: 24px 32px;
+  border-bottom: 8px solid var(--yellow-darker);
+  margin-top: -16px;
+  margin-left: -32px;
+  width: fit-content;
+}
+
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
